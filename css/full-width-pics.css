@@ -51,8 +51,10 @@ img.ri.empty{
 
 .ri img{
   position: absolute;
-  left: 50%;
+ /* left: 50%;
   bottom: 50%;
+  */
+  align: center;
 }
 @media screen and (orientation: portrait){
   img.ri{max-width: 90%; }
@@ -68,5 +70,5 @@ img.ri.empty{
   bottom: 10%;
   left: 50%;
   border-radius: 4px;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.9);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.9);
 }
