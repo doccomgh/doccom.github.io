@@ -62,7 +62,7 @@ img.ri.empty{
     img.ri{max-height: 90%; }
 }
 
-img.ri {
+.ri img {
   position: absolute;
   max-width: 80%;
   bottom: 10%;
