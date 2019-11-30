@@ -14,7 +14,7 @@ body {
   background-size: cover;
   -o-background-size: cover;
 }
-
+/*
 img.ri {
   position: absolute;
   max-width: 80%;
@@ -40,4 +40,17 @@ img.ri.empty{
 
 @media screen and (orientation: landscape){
     img.ri{max-height: 90%; }
+}
+*/
+
+.ri{
+  position: relative;
+  height: 300px;
+  width: 300px;  
+}
+
+.ri img{
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
