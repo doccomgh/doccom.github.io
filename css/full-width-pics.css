@@ -15,7 +15,7 @@ body {
   -o-background-size: cover;
 }
 .badge{
-  display: inline;
+  display: block;
   width: 200px;
   height: 100px;
   align: center;
