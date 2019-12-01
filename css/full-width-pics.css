@@ -54,8 +54,13 @@ img.ri.empty{
  /* left: 50%;
   bottom: 50%;
   */
+  margin:0px auto;
+  top:0px;
+  width:800px;
+  text-align: center;
   align: center;
 }
+
 @media screen and (orientation: portrait){
   img.ri{max-width: 90%; }
 }
