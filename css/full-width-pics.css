@@ -104,3 +104,8 @@ img.ri.empty{
   background: #125688;
   color: white;
 }
+
+.container{
+  display: flex;
+  justify-content: center;
+}
